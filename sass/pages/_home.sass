@@ -4,19 +4,21 @@
 
 .partners 
   min-height: 10vh
-  display: grid
-  grid-template-columns: 5% 2fr 1fr 1fr 5%
+  display: flex
+  justify-content: space-between
+  align-items: center
   background-color: #222429
   color: #aeaeae
+  padding: 1rem 5%
 
-.partners-title
-  grid-column: 2
-  align-self: center
-  h1 
-    font-size: 1.8rem
+.partners-title  h1 
+  font-size: 1.8rem
 
 .partners-content
-  align-self: center
-  display: grid
-  grid-column: 4
-  grid-template-columns: 1fr 1fr
+  display: flex
+  h2 
+    padding-left: 1rem
+
+@media screen and ( max-width: 560px )
+  .partners
+    flex-direction: column
