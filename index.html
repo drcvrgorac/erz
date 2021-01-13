@@ -4,35 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esports Racing Zone</title>
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="./css/main.min.css">
-    <title>Esports Racing Zone</title>
+    <link rel="stylesheet" href="sass/main.css">
 </head>
 
 <body>
-    <header>
-        <div class="navbar">
-            <nav class="main-menu">
-                <ul>
-                    <li><a href="#">Vijesti</a></li>
-                    <li><a href="#">Natjecanja</a></li>
-                    <li><a href="#">O nama</a></li>
-                    <li><a href="#">Kontakt</a></li>
-                </ul>
-            </nav>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
+    <header class="main-header">
+        <nav class="navbar" id="menu">
+            <ul class="top-menu" id="top-menu">
+                <li><a href="#">Vijesti</a></li>
+                <li><a href="#">Natjecanja</a></li>
+                <li><a href="#">O nama</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
     </header>
-    <section class="hero">
+
+<section class="hero">
         <div class="left">
             <h1 class="animate__animated animate__fadeInLeft">Esports <span class="jedan">Racing </span><span class="dva">Zone</span></h1>
             <p class="animate__animated animate__fadeInLeft">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quam, molestiae omnis vitae temporibus asperiores sint, obcaecati laudantium sapiente suscipit aut quasi quibusdam dolore! Laborum deserunt repellat itaque sunt adipisci.</p>
-            <button class="animate__animated animate__zoomIn">Pridruži se</button>
+            <button class="animate__animated animate__zoomIn btn">Pridruži se</button>
         </div>
         <div class="right">
             <img class="animate__animated animate__fadeInDownBig" src="./assets/images/logo.png" alt="" srcset="">
@@ -54,24 +48,24 @@
         </div>
         <div class="event-next-content">
             <div class="event">
+                <h2>F1 2020 - Divizija 2</h2>
+                <h3>14.01.2021 22:00</h3>
+                <img class="event-image" src="./assets/images/suzuka2.jpg" alt="Suzuka">
+            </div>
+            <div class="event">
                 <h2>F1 2020 - Divizija 3</h2>
-                <h3>20.12.2020 20:00</h3>
+                <h3>17.01.2021 20:00</h3>
                 <img class="event-image" src="./assets/images/suzuka2.jpg" alt="Suzuka">
             </div>
             <div class="event">
                 <h2>F1 2020 - Divizija 1</h2>
-                <h3>20.12.2020 22:00</h3>
-                <img class="event-image" src="./assets/images/suzuka1.webp" alt="Suzuka">
-            </div>
-            <div class="event">
-                <h2>F1 2020 - Divizija 4</h2>
-                <h3>21.12.2020 22:00</h3>
-                <img class="event-image" src="./assets/images/suzuka3.jpg" alt="Suzuka">
+                <h3>17.01.2021 22:00</h3>
+                <img class="event-image" src="./assets/images/suzuka2.jpg" alt="Suzuka">
             </div>
         </div>
     </section>
 
-    <script src="assets/js/main.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
